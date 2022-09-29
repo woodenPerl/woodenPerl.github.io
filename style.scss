@@ -80,6 +80,19 @@
         width: 45%;    
         margin: 20px auto 0 auto;
         text-align: center;
+        border: solid 2px black;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .btn:hover{
+        background-color: white;
+        border: solid 2px black;
+        transition: ease-in-out 0.2s;
+        a{
+            color: black;
+        }
     }
 }
 .work{
@@ -118,9 +131,19 @@
             border-radius: 50px;
             margin-top: 10px;
             border: solid 1px white;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .thisPro:hover{
+            border: solid 1px black;
+            box-shadow: 0 0 20px -11px white;
+            transition: ease-in-out 0.1s;
         }
     }
 }
+
 .contact{
     padding: 30px;
     h4{
@@ -137,9 +160,13 @@
         text-align: center;
         p{
             font-size: 18px;
+            a{
+                color: black
+            }
         }
     }
 }
+
 .foot-bar{
     text-align: center;
     padding: 10px;

@@ -95,6 +95,23 @@
   width: 45%;
   margin: 20px auto 0 auto;
   text-align: center;
+  border: solid 2px black;
+}
+
+.about .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.about .btn:hover {
+  background-color: white;
+  border: solid 2px black;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.about .btn:hover a {
+  color: black;
 }
 
 .work {
@@ -143,6 +160,19 @@
   border: solid 1px white;
 }
 
+.work .card .thisPro a {
+  color: white;
+  text-decoration: none;
+}
+
+.work .card .thisPro:hover {
+  border: solid 1px black;
+  -webkit-box-shadow: 0 0 20px -11px white;
+          box-shadow: 0 0 20px -11px white;
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
+}
+
 .contact {
   padding: 30px;
 }
@@ -165,6 +195,10 @@
 
 .contact .content p {
   font-size: 18px;
+}
+
+.contact .content p a {
+  color: black;
 }
 
 .foot-bar {
