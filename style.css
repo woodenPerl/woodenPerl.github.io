@@ -58,7 +58,7 @@
 }
 
 .show-case .content p {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 7px;
   color: white;
   width: 100%;
@@ -116,8 +116,8 @@
   margin: 40px auto 0 auto;
   padding: 15px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 0 20px -5px white;
-          box-shadow: 0 0 20px -5px white;
+  -webkit-box-shadow: 0 0 20px -11px white;
+          box-shadow: 0 0 20px -11px white;
   color: white;
 }
 
@@ -134,13 +134,13 @@
 
 .work .card .thisPro {
   text-align: center;
-  background-color: white;
   width: 40%;
   margin: auto;
   padding: 10px;
-  color: black;
+  color: white;
   border-radius: 50px;
   margin-top: 10px;
+  border: solid 1px white;
 }
 
 .contact {
