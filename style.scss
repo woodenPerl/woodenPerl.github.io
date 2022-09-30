@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 .head-bar{
     text-align: center;
     position: relative;
@@ -50,10 +49,12 @@
             font-size: 1em;
             margin-top: 7px;
             color: white;
-            width: 100%;           
+            width: 100%;     
+            font-family: 'Inconsolata', monospace;      
         }
         span{
             color: red;
+            font-family: 'Inconsolata', monospace;
         }
     }
 }
@@ -160,6 +161,7 @@
         text-align: center;
         p{
             font-size: 18px;
+            margin-bottom: 7px;
             a{
                 color: black
             }
@@ -170,4 +172,10 @@
 .foot-bar{
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    .icon{
+        width: 20px;
+        margin-left: 10px;
+    }
 }

@@ -62,10 +62,12 @@
   margin-top: 7px;
   color: white;
   width: 100%;
+  font-family: 'Inconsolata', monospace;
 }
 
 .show-case .content span {
   color: red;
+  font-family: 'Inconsolata', monospace;
 }
 
 .about {
@@ -195,6 +197,7 @@
 
 .contact .content p {
   font-size: 18px;
+  margin-bottom: 7px;
 }
 
 .contact .content p a {
@@ -204,5 +207,15 @@
 .foot-bar {
   text-align: center;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.foot-bar .icon {
+  width: 20px;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
