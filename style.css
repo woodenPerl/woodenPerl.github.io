@@ -133,10 +133,10 @@
   background-color: black;
   width: 90%;
   margin: 40px auto 0 auto;
-  padding: 15px;
+  padding: 20px 15px 20px 15px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 0 20px -11px white;
-          box-shadow: 0 0 20px -11px white;
+  -webkit-box-shadow: 0 0 20px -10px white;
+          box-shadow: 0 0 20px -10px white;
   color: white;
 }
 
@@ -151,6 +151,12 @@
   font-size: 17px;
 }
 
+.work .card .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .work .card .thisPro {
   text-align: center;
   width: 40%;
@@ -159,7 +165,8 @@
   color: white;
   border-radius: 50px;
   margin-top: 10px;
-  border: solid 1px white;
+  -webkit-box-shadow: 0 0 20px -6px white;
+          box-shadow: 0 0 20px -6px white;
 }
 
 .work .card .thisPro a {
@@ -168,9 +175,8 @@
 }
 
 .work .card .thisPro:hover {
-  border: solid 1px black;
-  -webkit-box-shadow: 0 0 20px -11px white;
-          box-shadow: 0 0 20px -11px white;
+  -webkit-box-shadow: 0 0 20px -11px deepskyblue;
+          box-shadow: 0 0 20px -11px deepskyblue;
   -webkit-transition: ease-in-out 0.1s;
   transition: ease-in-out 0.1s;
 }
@@ -212,6 +218,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  border-bottom: solid 4px red;
 }
 
 .foot-bar .icon {

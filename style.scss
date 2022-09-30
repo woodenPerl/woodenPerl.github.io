@@ -110,9 +110,9 @@
         background-color: black;
         width: 90%;
         margin: 40px auto 0 auto;
-        padding: 15px;
+        padding: 20px 15px 20px 15px;
         border-radius: 20px;
-        box-shadow: 0 0 20px -11px white;
+        box-shadow: 0 0 20px -10px white;
         color: white;
         h4{
             text-align: center;
@@ -123,6 +123,9 @@
             margin: 10px;
             font-size: 17px;
         }
+        .btn-container{
+            display: flex;
+        }
         .thisPro{
             text-align: center;
             width: 40%;
@@ -131,15 +134,14 @@
             color: white;
             border-radius: 50px;
             margin-top: 10px;
-            border: solid 1px white;
+            box-shadow: 0 0 20px -6px white;
             a{
                 color: white;
                 text-decoration: none;
             }
         }
         .thisPro:hover{
-            border: solid 1px black;
-            box-shadow: 0 0 20px -11px white;
+            box-shadow: 0 0 20px -11px rgb(0, 191, 255);
             transition: ease-in-out 0.1s;
         }
     }
@@ -174,6 +176,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    border-bottom: solid 4px red;
     .icon{
         width: 20px;
         margin-left: 10px;
