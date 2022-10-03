@@ -119,3 +119,6 @@ document.getElementById('pickFour') .onclick = function(){
         document.querySelector('.hide-four') .style = 'display: none'
     }
 }
+document.getElementById('startBtn') .onclick = function(){
+    document.querySelector('.make-code') .style = 'display: none'
+}
