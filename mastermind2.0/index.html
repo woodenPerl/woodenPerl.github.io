@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="head-bar">
+      <h1>Mastermind</h1>
+    </header>
+
+    <!-- container -->
+    <div class="container">
+      <!-- set the code-->
+      <div class="set-code">
+        <!-- set color one-->
+        <div class="set-color-one">
+          <div class="box main-box" id="pickOne"></div>
+
+          <div class="color-pic hide hide-one">
+            <div class="box blue" id="pickBlueOne"></div>
+            <div class="box red" id="pickRedOne"></div>
+            <div class="box yellow" id="pickYellowOne"></div>
+            <div class="box green" id="pickGreenOne"></div>
+          </div>
+        </div>
+
+        <!-- set color two-->
+        <div class="set-color-two">
+          <div class="box main-box" id="pickTwo"></div>
+
+          <div class="color-pic hide hide-two">
+            <div class="box blue" id="pickBlueTwo"></div>
+            <div class="box red" id="pickRedTwo"></div>
+            <div class="box yellow" id="pickYellowTwo"></div>
+            <div class="box green" id="pickGreenTwo"></div>
+          </div>
+        </div>
+
+        <!-- set color three -->
+        <div class="set-color-three">
+          <div class="box main-box" id="pickThree"></div>
+
+          <div class="color-pic hide hide-three">
+            <div class="box blue" id="pickBlueThree"></div>
+            <div class="box red" id="pickRedThree"></div>
+            <div class="box yellow" id="pickYellowThree"></div>
+            <div class="box green" id="pickGreenThree"></div>
+          </div>
+        </div>
+
+        <!-- set color four-->
+        <div class="set-color-four">
+          <div class="box main-box" id="pickFour"></div>
+
+          <div class="color-pic hide hide-four">
+            <div class="box blue" id="pickBlueFour"></div>
+            <div class="box red" id="pickRedFour"></div>
+            <div class="box yellow" id="pickYellowFour"></div>
+            <div class="box green" id="pickGreenFour"></div>
+          </div>
+        </div>
+
+        <button class="box main-box box-btn" id="start-btn">Start</button>
+      </div>
+
+      <!-- guess the code-->
+      <div class="guess-code"></div>
+    </div>
+
+    <!-- footer -->
+    <footer class="foot-bar"></footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
