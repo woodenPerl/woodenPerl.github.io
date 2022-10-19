@@ -12,18 +12,6 @@
   padding: 10px;
 }
 
-.head-bar .menu {
-  text-align: right;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-  right: 20px;
-  background-color: lightgrey;
-  padding: 5px 10px;
-  border-radius: 50px;
-}
-
 .head-bar h1 {
   font-size: 1.3em;
   text-transform: uppercase;
@@ -32,6 +20,32 @@
 
 .head-bar ul {
   display: none;
+}
+
+.head-bar .menu {
+  position: relative;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.head-bar .menu .mOne {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+  rotate: 90deg;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.head-bar .menu .mTwo {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .show-case {
